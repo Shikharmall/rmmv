@@ -8,7 +8,7 @@ const contents = [
   {
     tagEng: "Bisen Rajpoot Tikana",
     tagHindi: "बिसेन राजपूत टिकाना",
-    url: "/assets/img/madhuban/map.png",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591070/rmmv/madhuban/map_nlh7rg.png",
   },
   // {
   //   tagEng: "Bunny Video",
@@ -19,72 +19,82 @@ const contents = [
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj1.jpg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591470/rmmv/majhauli/majhauliraj1_wdqavo.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj2.jpg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591467/rmmv/majhauli/majhauliraj2_n8aoxj.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj3.jpg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591470/rmmv/majhauli/majhauliraj3_oky0l2.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj4.jpg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591480/rmmv/majhauli/majhauliraj4_sxc5v7.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj5.png",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591470/rmmv/majhauli/majhauliraj7_xggygd.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj6.png",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591474/rmmv/majhauli/majhauliraj11_zlamrm.jpg",
   },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj7.jpeg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591479/rmmv/majhauli/majhauliraj12_km0obe.jpg",
   },
   {
-    tagEng: "Majhauli Estate",
-    tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj10.jpg",
+    tagEng: "Majhauli Estate Insignia",
+    tagHindi: "मझौली एस्टेट का राजचिह्न",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591468/rmmv/majhauli/majhauli_coa_id1rw0.png",
   },
   {
-    tagEng: "Majhauli Estate",
-    tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj11.jpg",
+    tagEng: "Raja Madhav Mall Vishen",
+    tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773593536/rmmv/madhuban/rajamadhavmall_nkklvr.png",
   },
   {
-    tagEng: "Majhauli Estate",
-    tagHindi: "मझौली राज",
-    url: "/assets/img/majhauli/majhauliraj12.jpg",
+    tagEng: "Raja Nath Mall Vishen",
+    tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773593553/rmmv/madhuban/rajanathmall_flr0d5.png",
+  },
+  {
+    tagEng: "Babu Ajay Bahadur Mall Vishen",
+    tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591044/rmmv/madhuban/babufatehbahadurmall_nrqssy.png",
   },
   {
     tagEng: "Ruined Thikana of Madhuban Zamindari",
     tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
-    url: "/assets/img/madhuban/madhuban1.jpg",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591058/rmmv/madhuban/madhuban1_euky3r.jpg",
+  },
+  {
+    tagEng: "Artistic Reconstruction of the Ruined Thikana of Madhuban Zamindari",
+    tagHindi: "मधुबन ज़मींदारी के खंडहर हो चुके ठिकाने का कलात्मक पुनर्निर्माण।",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591109/rmmv/madhuban/madhubanfort_i3tcwl.png",
   },
   {
     tagEng: "Ruined Thikana of Madhuban Zamindari",
     tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
-    url: "/assets/img/madhuban/madhuban2.png",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591062/rmmv/madhuban/madhuban3_dsnwho.png",
+  },
+  {
+    tagEng: "Martyrs' Memorial of Mohan Pandey, Commander-in-Chief of Raja Nath Mall's Army",
+    tagHindi: "शहीद स्मारक : मोहन पांडेय, राजा नत्थ मल्ल की सेना के प्रधान सेनापति।",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591063/rmmv/madhuban/mohanpandey_lkrg6t.png",
   },
   {
     tagEng: "Ruined Thikana of Madhuban Zamindari",
     tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
-    url: "/assets/img/madhuban/madhuban3.png",
-  },
-  {
-    tagEng: "Ruined Thikana of Madhuban Zamindari",
-    tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
-    url: "/assets/img/madhuban/madhuban4.png",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591080/rmmv/madhuban/madhuban4_ijvetx.png",
   },
 ];
 

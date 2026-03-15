@@ -41,7 +41,7 @@ export default function MoreSection() {
       titleHindi: "गोंडा रियासत",
       description: "Raja Pratap Mall",
       descriptionHindi: "राजा प्रताप मल",
-      src: "/assets/img/gonda/gonda_coa.png",
+      src: "/assets/img/royalFlagC.png",
       href: "estates/gondaEstate",
     },
     {
@@ -49,7 +49,7 @@ export default function MoreSection() {
       titleHindi: "मनकापुर रियासत",
       description: "Raja Ajmat Singhji",
       descriptionHindi: "राजा अजमत सिंहजी",
-      src: "/assets/img/mankapur/mankapur_coa.png",
+      src: "/assets/img/royalFlagC.png",
       href: "estates/mankapurEstate",
     },
     {
@@ -57,7 +57,7 @@ export default function MoreSection() {
       titleHindi: "भिंगा रियासत",
       description: "Raja Bhawani Singh",
       descriptionHindi: "राजा भवानी सिंह",
-      src: "/assets/img/bhinga/bhinga_coa.png",
+      src: "/assets/img/royalFlagC.png",
       href: "/estates/bhingaEstate",
     },
     {

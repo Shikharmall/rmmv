@@ -31,7 +31,8 @@ export default function Footer() {
     <footer
       className="relative min-h-screen bg-cover bg-center flex flex-col text-white"
       style={{
-        backgroundImage: "url('/assets/img/majhauli/majhauliraj3.jpg')",
+        backgroundImage: "url('https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591470/rmmv/majhauli/majhauliraj3_oky0l2.jpg')",
+        // backgroundImage: "url('/assets/img/majhauli/majhauliraj3.jpg')",
         // backgroundImage: "url('/assets/img/majhauli/majhauliraj9.png')",
       }}
     >
