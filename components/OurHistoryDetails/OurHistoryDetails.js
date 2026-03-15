@@ -134,7 +134,7 @@ export default function OurHistoryDetails() {
     <div>
       <Banner
         title={language === "english" ? "Our History" : "हमारा इतिहास"}
-        bgImage={'/assets/img/mallMahajanpada/warOverBuddhaRelics.jpg'}
+        bgImage={'https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg'}
       />
 
       {/* Main Content */}
