@@ -8,13 +8,13 @@ export default function Header() {
   return (
     <header
       // className="bg-[#082366] text-white border-b-3 border-green-500"
-      className="bg-[#ac1b2a] text-white border-b-1 border-[#834e2f]"
-      // className="bg-[#ad916c] text-white border-b-1 border-[#834e2f]"
+      // className="bg-[#ac1b2a] text-white border-b-1 border-[#834e2f]"
+      className="bg-[#ad916c] text-white border-b-1 border-[#834e2f]"
     >
       <div className="container mx-auto flex justify-between items-center py-2 px-4">
         <div className="flex items-center space-x-4 text-sm">
           {/* <a className="hover:underline"></a> */}
-          <span className="border-r border-white pr-4">
+          <span className="border-r border-white pr-4 hidden md:inline">
             shmall.21.2020@gmail.com
           </span>
           <button
