@@ -9,7 +9,7 @@ export default function AboutSection() {
     <div>
       <Banner
         title={
-          language === "english" ? "Royal Family Tree" : "राजपरिवार वंशवृक्ष"
+          language === "english" ? "About" : "अबाउट"
         }
         bgImage={'/assets/img/mallMahajanpada/warOverBuddhaRelics.jpg'}
       />

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Raja Madhav Mall Vishen Trust",
+  title: "Raja Madhav Mall Vishen",
   description: "Protecting our legacy and valour.",
   icons: {
     icon: [

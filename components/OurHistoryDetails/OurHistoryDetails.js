@@ -289,7 +289,7 @@ export default function OurHistoryDetails() {
                 The king of the Malla Kingdom also appears in Vyasa's Mahabharata (Bhisma Parva, Section XXX), where it is mentioned that during the Digvijaya campaign of Bhima, he subdued many northern kingdoms, including <strong> <em> the king of the Mallas</em></strong>, while expanding the dominion of Yudhishthira for the Rajasuya sacrifice. The text also states that Bhima “<strong><em>vanquished the southern Mallas and the Bhagavanta mountains</em></strong>”, thereby bringing that region under the authority of Yudhishthira.
               </p>
 
-              <p className="font-serif mx-5 md:mx-10">
+              {/* <p className="font-serif mx-5 md:mx-10">
                 <em>
                   &quot;ततः सुमित्रानन्दनौ पुत्रौ तव लक्षण । <br />
                   अङ्गदं चन्द्रकेतुं च राज्ये स्थापयिता अहम् ॥&quot;
@@ -308,41 +308,16 @@ export default function OurHistoryDetails() {
                   &quot;मल्यदेशे च तौ वीरौ चन्द्रकान्तीनगरीं शुभाम् । <br />
                   निरमात् स रघुश्रेष्ठो लोकपालपुरोपमाम् ॥&quot;
                 </em>
-              </p>
+              </p> */}
             </div>
           ) : (
             <div className="md:col-span-2 space-y-4 text-justify leading-relaxed">
               <p className="font-serif">
-                मल्ल राज्य का पहला लिखित उल्लेख <strong><em>वाल्मीकि रामायण</em></strong> (उत्तरकांड, खंड CXV) में मिलता है,
-                जहाँ राजा चन्द्रकेतु, जिन्हें भगवान लक्ष्मण का पुत्र बताया गया है, को भगवान राम द्वारा मल्ल्यदेश (मल्ल) पर राज्याभिषेक प्रदान किया गया।
-                वहाँ, राम ने उनके लिए एक भव्य राजधानी चन्द्रकान्ति बनवाई — एक ऐसा नगर जिसे &quot;अत्यंत रमणीय और देवताओं के नगर के समान&quot; बताया गया है।
+                मल्ल राज्य के राजा का उल्लेख महर्षि <strong>व्यास</strong> द्वारा रचित महाभारत (सभा पर्व, अध्याय XXX) में भी मिलता है। इसमें वर्णन है कि भीम के दिग्विजय अभियान के दौरान उन्होंने अनेक उत्तरी राज्यों को पराजित किया, जिनमें <strong><em>मल्लों का राजा</em></strong> भी शामिल था। यह अभियान युधिष्ठिर के राजसूय यज्ञ के लिए उनके राज्य की सीमा का विस्तार करने के उद्देश्य से किया गया था। ग्रंथ में यह भी कहा गया है कि भीम ने <strong><em>दक्षिणी मल्लों और भगवन्त पर्वतों को भी पराजित किया</em></strong>, जिससे वह क्षेत्र भी युधिष्ठिर के अधिकार में आ गया।
               </p>
 
               <p className="font-serif">
-                पहला संदर्भ बताता है कि भगवान राम ने लक्ष्मण से कहा:
-                &quot;हे सुमित्रानंदन, तुम्हारे दो पुत्र अंगद और चन्द्रकेतु गुणी और सक्षम हैं;
-                मैं उन्हें उनके-अपने-अपने राज्यों का शासक बनाऊँगा।&quot;
-              </p>
-
-              <p className="font-serif mx-5 md:mx-10">
-                <em>
-                  &quot;ततः सुमित्रानन्दनौ पुत्रौ तव लङ्क्ष्मण । <br />
-                  अङ्गदं चन्द्रकेतुं च राज्ये स्थापयिता अहम् ॥&quot;
-                </em>
-              </p>
-
-              <p className="font-serif mt-4">
-                दूसरा संदर्भ बताता है कि मल्ल्यदेश में,
-                ये दोनों वीर — रघुश्रेष्ठों में श्रेष्ठ —
-                एक सुंदर नगर चन्द्रकान्ति का निर्माण करते हैं,
-                जो देवताओं (लोकपालों) के नगर के समान था।
-              </p>
-
-              <p className="font-serif mx-5 md:mx-10">
-                <em>
-                  &quot;मल्यदेशे च तौ वीरौ चन्द्रकान्तीनगरीं शुभाम् । <br />
-                  निरमात् स रघुश्रेष्ठो लोकपालपुरोपमाम् ॥&quot;
-                </em>
+                मल्ल राज्य के राजा का उल्लेख महर्षि <strong>व्यास</strong> द्वारा रचित महाभारत (भीष्म पर्व, अध्याय XXX) में भी मिलता है। इसमें वर्णन है कि भीम के दिग्विजय अभियान के दौरान उन्होंने अनेक उत्तरी राज्यों को पराजित किया, जिनमें <strong><em>मल्लों का राजा</em></strong> भी सम्मिलित था, और इस प्रकार युधिष्ठिर के राजसूय यज्ञ के लिए उनके राज्य की प्रभुता का विस्तार किया गया। ग्रंथ में यह भी उल्लेख है कि भीम ने <strong><em>दक्षिणी मल्लों तथा भगवन्त पर्वतों को भी परास्त किया</em></strong>, जिससे वह प्रदेश भी युधिष्ठिर के अधीन आ गया।
               </p>
             </div>
           )}
