@@ -29,7 +29,7 @@ export default function Navbar() {
               href="/about"
               className="text-gray-700 hover:text-[#834e2f]"
             >
-              {language === "english" ? "About" : "वंशावली"}
+              {language === "english" ? "About" : "अबाउट"}
             </Link>
             <Link
               href="/ourHistory"
@@ -75,7 +75,7 @@ export default function Navbar() {
             href="/about"
             className="block text-gray-700 hover:text-[#834e2f]"
           >
-            {language === "english" ? "Family Tree" : "वंशावली"}
+            {language === "english" ? "About" : "अबाउट"}
           </Link>
           <Link
             href="/ourHistory"
