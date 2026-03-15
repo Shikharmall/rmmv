@@ -18,7 +18,7 @@ export default function Navbar() {
             // className="text-xl font-semibold text-[#f47217] font-serif"
             // className="text-xl font-semibold text-[#caaf44] font-serif"
             >
-              {language === "english" ? "Raja Madhav Mall Vishen Trust" : "राजा माधव मल्ल विशेन ट्रस्ट"}
+              {language === "english" ? "Raja Madhav Mall Vishen" : "राजा माधव मल्ल विशेन"}
             </Link>
           </div>
           <div className="hidden md:flex space-x-4">

@@ -10,12 +10,12 @@ const contents = [
     tagHindi: "बिसेन राजपूत टिकाना",
     url: "/assets/img/madhuban/map.png",
   },
-  {
-    tagEng: "Bunny Video",
-    tagHindi: "बिसेन राजपूत टिकाना",
-    isVideo: true,
-    url: "https://www.w3schools.com/tags/mov_bbb.mp4",
-  },
+  // {
+  //   tagEng: "Bunny Video",
+  //   tagHindi: "बिसेन राजपूत टिकाना",
+  //   isVideo: true,
+  //   url: "https://www.w3schools.com/tags/mov_bbb.mp4",
+  // },
   {
     tagEng: "Majhauli Estate",
     tagHindi: "मझौली राज",
