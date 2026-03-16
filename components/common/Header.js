@@ -31,10 +31,21 @@ export default function Header() {
           </button>
         </div>
         <div className="flex space-x-3 text-xl">
-          <FaSearch className="text-xl text-white" />
-          <FaTwitter className="text-xl text-white" />
-          <FaYoutube className="text-xl text-white" />
-          <FaFacebook className="text-xl text-white" />
+          <a href="" aria-label="Search">
+            <FaSearch className="text-xl text-white" />
+          </a>
+
+          <a href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <FaTwitter className="text-xl text-white" />
+          </a>
+
+          <a href="" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <FaYoutube className="text-xl text-white" />
+          </a>
+
+          <a href="https://www.facebook.com/groups/1600187957853501" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <FaFacebook className="text-xl text-white" />
+          </a>
         </div>
       </div>
     </header>
