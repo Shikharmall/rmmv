@@ -1,10 +1,18 @@
 "use client";
 import Banner from "./common/Banner";
 import LanguageContext from "@/context/languageContext";
-import { useContext } from "react";
+import { useContext, useState } from "react";
+import ContentModel from "./common/ContentModel";
 
 export default function DonateSection() {
   const { language } = useContext(LanguageContext);
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [selectedContent, setSelectedContent] = useState(null);
+
+  const openModal = () => {
+    setSelectedContent({ url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773843142/qr_vl1z4g.png"/*, tagEng: "Scan QR and donate your amount to US.", tagHindi: "QR स्कैन करें और हमें अपनी राशि दान करें।"*/ });
+    setModalOpen(true);
+  };
 
   return (
     <section className="bg-white pb-12">
@@ -75,7 +83,9 @@ export default function DonateSection() {
 
             {/* Buttons */}
             <div className="flex items-center gap-6 mt-8">
-              <button className="bg-[#8b6f47] text-white px-6 py-3 rounded-lg hover:bg-[#7a5d3b] transition cursor-pointer">
+              <button className="bg-[#8b6f47] text-white px-6 py-3 rounded-lg hover:bg-[#7a5d3b] transition cursor-pointer"
+                onClick={() => openModal()}
+              >
                 Donate Now
               </button>
 
@@ -100,6 +110,12 @@ export default function DonateSection() {
 
         </div>
       </div>
+      <ContentModel
+        isOpen={isModalOpen}
+        content={selectedContent}
+        onClose={() => setModalOpen(false)}
+      />
+
     </section>
   );
 }

@@ -178,6 +178,9 @@ export default function Footer() {
           <p>
             Copyright © 2026 Developed by{" "}
             <a
+              href="https://x.com/itsShikharMall"
+              target="_blank"
+              
               // className="text-[#834e2f] hover:underline"
               className="text-blue-400 hover:underline"
             >

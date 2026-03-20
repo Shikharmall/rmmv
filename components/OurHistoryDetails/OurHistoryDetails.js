@@ -1138,7 +1138,7 @@ export default function OurHistoryDetails() {
           {/* Left Image */}
           <div className="md:col-span-1">
             <div className="border-1 border-gray-300 p-2 flex flex-col items-center">
-              <div className="flex justify-center">
+              <div className="flex flex-col md:flex-row justify-center">
                 <Image
                   src="/assets/img/madhuban/census_1_1881.jpg"
                   alt="madhuban-img"
@@ -1332,7 +1332,7 @@ export default function OurHistoryDetails() {
           {/* Right Image */}
           <div className="md:col-span-1">
             <div className="border-1 border-gray-300 p-2 flex flex-col items-center">
-              <div className="flex justify-center">
+              <div className="flex flex-col md:flex-row justify-center">
                 <Image
                   src="/assets/img/madhuban/case1.png"
                   alt="madhuban-img"
