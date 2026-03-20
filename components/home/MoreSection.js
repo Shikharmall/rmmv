@@ -117,7 +117,8 @@ export default function MoreSection() {
               transition={{ duration: 0.5, delay: 0.2 + idx * 0.1 }}
             >
               <Link
-                href={item.href}
+                href="#"
+                // href={item.href}
                 className="flex flex-col items-center text-center transition p-3 rounded-xl w-50 h-50 m-1"
               >
                 <Image
