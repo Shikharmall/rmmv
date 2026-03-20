@@ -331,7 +331,7 @@ export default function OurHistoryDetails() {
                   src="/assets/img/mallMahajanpada/mahabharat1-sabha-parva1.png"
                   alt="mahabharat-img"
                   width={200}
-                  height={120}
+                  height={50}
                   className="cursor-pointer w-full sm:w-[180px] md:w-[200px]"
                   onClick={() =>
                     openModal({
@@ -344,7 +344,7 @@ export default function OurHistoryDetails() {
                   src="/assets/img/mallMahajanpada/mahabharat1-sabha-parva2.png"
                   alt="mahabharat-img"
                   width={200}
-                  height={120}
+                  height={50}
                   className="cursor-pointer w-full sm:w-[180px] md:w-[200px]"
                   onClick={() =>
                     openModal({
@@ -357,7 +357,7 @@ export default function OurHistoryDetails() {
                   src="/assets/img/mallMahajanpada/mahabharat1-bhisma-parva1.png"
                   alt="mahabharat-img"
                   width={200}
-                  height={120}
+                  height={50}
                   className="cursor-pointer w-full sm:w-[180px] md:w-[200px]"
                   onClick={() =>
                     openModal({
