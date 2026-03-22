@@ -1,10 +1,12 @@
 "use client";
 import React, { useContext, useState } from "react";
+import Script from "next/script";
 import Image from "next/image";
 import Banner from "../common/Banner";
 import FamilyTreeStructure from "../common/FamilyTreeStructure";
 import LanguageContext from "@/context/languageContext";
 import ContentModel from "../common/ContentModel";
+import SubHeading from "./SubHeading";
 import {
   madhubanFamilyData,
   madhubanFamilyDataHindi,
@@ -131,23 +133,29 @@ export default function OurHistoryDetails() {
   };
 
   return (
-    <div>
+    <div className="bg-[#fefee3]">
       <Banner
         title={language === "english" ? "Our History" : "हमारा इतिहास"}
         bgImage={'https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg'}
       />
 
       {/* Main Content */}
-      <main className="container mx-auto px-5 md:px-20 py-5 md:py-10">
+      <main
+        className="container mx-auto px-5 md:px-20 py-10 bg-no-repeat"
+        style={{
+          backgroundImage: `
+      url('https://res.cloudinary.com/drb1ds8e3/image/upload/v1774188144/download_kt2fta.png'),
+      url('https://res.cloudinary.com/drb1ds8e3/image/upload/v1774188144/download_kt2fta.png')
+    `,
+          backgroundPosition: "top center, bottom center",
+          backgroundSize: "600px auto, 600px auto",
+        }}
+
+      >
 
         {/* Ramayan Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "RAMAYANA PERIOD" : "रामायण काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="RAMAYANA PERIOD" hindi="रामायण काल" />
+
         <div className="grid md:grid-cols-3 gap-6 my-3">
 
           {/* left Image */}
@@ -270,13 +278,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Mahabharat Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "MAHABHARAT PERIOD" : "महाभारत काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="MAHABHARAT PERIOD" hindi="महाभारत काल" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
           {/* Bio */}
           {language === "english" ? (
@@ -378,13 +380,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Buddha Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "BUDDHA PERIOD" : "बुद्ध काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="BUDDHA PERIOD" hindi="बुद्ध काल" />
         <div className="grid md:grid-cols-3 gap-6">
           {/* Left Image */}
           <div className="md:col-span-1 ">
@@ -484,13 +480,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Majhauli Estate */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "MAJHAULI ESTATE" : "मझौली रियासत"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="MAJHAULI ESTATE" hindi="मझौली रियासत" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
           {/* Bio */}
           {language === "english" ? (
@@ -596,13 +586,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Madhuban Zamindari */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "MADHUBAN ZAMINDARI" : "बुद्ध काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="MADHUBAN ZAMINDARI" hindi="मधुबन जमींदारी" />
         <div className="grid md:grid-cols-3 gap-6">
           {/* Left Image */}
           <div className="md:col-span-1 ">
@@ -830,13 +814,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Mughal Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "MUGHAL PERIOD" : "मुग़ल काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="MUGHAL PERIOD" hindi="मुग़ल काल" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
           {/* left Image */}
           <div className="md:col-span-1">
@@ -958,13 +936,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Battle of Tonsa */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english" ? "BATTLE OF TONSA" : "जंग-ए-टौंस"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="BATTLE OF TONSA" hindi="जंग-ए-टौंस" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
           {/* Bio */}
           {language === "english" ? (
@@ -1124,15 +1096,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Britisher's Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english"
-              ? "BRITISHER'S PERIOD"
-              : "अंग्रेज़ों का काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="BRITISHER'S PERIOD" hindi="अंग्रेज़ों का काल" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
 
           {/* Left Image */}
@@ -1289,7 +1253,6 @@ export default function OurHistoryDetails() {
 
         </div>
         <div className="grid md:grid-cols-3 gap-6 my-3">
-
           {/* Bio */}
           {language === "english" ? (
             <div className="md:col-span-2 space-y-4 text-justify leading-relaxed">
@@ -1375,7 +1338,6 @@ export default function OurHistoryDetails() {
 
         </div>
         <div className="grid md:grid-cols-3 gap-6 my-3">
-
           {/* Bio */}
           {language === "english" ? (
             <div className="md:col-span-2 space-y-4 text-justify leading-relaxed">
@@ -1430,15 +1392,7 @@ export default function OurHistoryDetails() {
         </div>
 
         {/* Post Independence Period */}
-        <div className="flex items-center gap-4 my-5">
-          <div className="h-px flex-grow bg-gray-300"></div>
-          <span className="text-gray-500 text-2xl whitespace-nowrap">
-            {language === "english"
-              ? "POST INDEPENDENCE PERIOD"
-              : "स्वतंत्रता प्राप्ति के बाद का काल"}
-          </span>
-          <div className="h-px flex-grow bg-gray-300"></div>
-        </div>
+        <SubHeading language={language} english="POST INDEPENDENCE PERIOD" hindi="स्वतंत्रता प्राप्ति के बाद का काल" />
         <div className="grid md:grid-cols-3 gap-6 my-3">
           {/* left Image */}
           <div className="md:col-span-1">
