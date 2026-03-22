@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "components/common/headerr.js", "components/common/hero-section.js"  ],
+, "components/common/headerr.js", "components/common/hero-section.js", "components/common/top-bar.js"  ],
   "exclude": ["node_modules"]
 }
