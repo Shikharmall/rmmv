@@ -116,7 +116,7 @@ const contents = [
 export default function GallerySection() {
   const { language } = useContext(LanguageContext);
   return (
-    <section className="bg-white pb-12">
+    <section className="bg-[#fefee3] pb-12">
       {/* Heading */}
       <Banner
         title={language === "english" ? "Explore Gallery" : "एक्सप्लोर गैलरी"}

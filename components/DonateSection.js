@@ -15,7 +15,7 @@ export default function DonateSection() {
   };
 
   return (
-    <section className="bg-white pb-12">
+    <section className="bg-[#fefee3] pb-12">
       {/* Heading */}
       <Banner
         title={language === "english" ? "Donate" : "डोनेट"}

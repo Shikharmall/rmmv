@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function SubHeading({ language, english, hindi }) {
     return (
         <div className="flex items-center gap-4 my-5">
