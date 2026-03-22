@@ -21,7 +21,7 @@ export default function AboutSection() {
   return (
     <div>
       <Banner
-        title={language === "english" ? "About" : "अबाउट"}
+        title={language === "english" ? "About Us" : "अबाउट"}
         bgImage="https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg"
       />
         <div className="w-full py-6 px-4">

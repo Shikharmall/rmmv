@@ -1,24 +1,36 @@
 "use client";
-import Header from "@/components/common/Header";
-import Navbar from "@/components/common/Navbar";
-import SwiperSlider from "@/components/home/SwiperSlider";
+import { Headerr } from "@/components/headerr";
+import { TopBar } from "@/components/top-bar";
+import { HeroSection } from "@/components/hero-section";
 import AboutSection from "@/components/home/AboutSection";
-import Footer from "@/components/common/Footer";
-import GallerySection from "@/components/home/GallerySection";
 import MoreSection from "@/components/home/MoreSection";
 import MapSection from "@/components/home/MapSection";
+import Footer from "../components/common/Footer";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <SwiperSlider />
-      <AboutSection />
-      <MoreSection />
-      <GallerySection />
-      <MapSection />
+      {/* Fixed Header */}
+      <main className="fixed top-0 left-0 w-full z-50">
+        <TopBar />
+        <Headerr />
+      </main>
+
+      {/* Page Content */}
+      <div className="pt-[90px]"> {/* adjust height based on header */}
+        <HeroSection
+          title="Raja Madhav Mall Vishen"
+          subtitle="Madhuban Zamindari"
+          backgroundImage="https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg"
+        />
+        <AboutSection />
+        <MoreSection />
+        <MapSection />
+      </div>
+
       <Footer />
     </>
   );
 }
+
+

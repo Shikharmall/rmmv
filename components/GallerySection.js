@@ -81,11 +81,11 @@ const contents = [
     tagHindi: "मधुबन ज़मींदारी के खंडहर हो चुके ठिकाने का कलात्मक पुनर्निर्माण।",
     url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591109/rmmv/madhuban/madhubanfort_i3tcwl.png",
   },
-  {
-    tagEng: "Ruined Thikana of Madhuban Zamindari",
-    tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
-    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591062/rmmv/madhuban/madhuban3_dsnwho.png",
-  },
+  // {
+  //   tagEng: "Ruined Thikana of Madhuban Zamindari",
+  //   tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
+  //   url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591062/rmmv/madhuban/madhuban3_dsnwho.png",
+  // },
   {
     tagEng: "Martyrs' Memorial of Mohan Pandey, Commander-in-Chief of Raja Nath Mall's Army",
     tagHindi: "शहीद स्मारक : मोहन पांडेय, राजा नत्थ मल्ल की सेना के प्रधान सेनापति।",
@@ -95,6 +95,21 @@ const contents = [
     tagEng: "Ruined Thikana of Madhuban Zamindari",
     tagHindi: "मधुबन ज़मींदारी का खंडहर हुआ ठिकाना",
     url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591080/rmmv/madhuban/madhuban4_ijvetx.png",
+  },
+  {
+    tagEng: "Ratol Taal (Madhuban)",
+    tagHindi: "रटोल ताल (मधुबन)",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1774081953/ratohlake4_ehshfr.jpg",
+  },
+  {
+    tagEng: "Ratol Taal (Madhuban)",
+    tagHindi: "रटोल ताल (मधुबन)",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1774081953/ratohlake2_idgxrh.jpg",
+  },
+  {
+    tagEng: "Ratol Taal (Madhuban)",
+    tagHindi: "रटोल ताल (मधुबन)",
+    url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1774081954/ratohlake11_ebaonb.jpg",
   },
 ];
 

@@ -1,14 +1,23 @@
-import Header from "../../components/common/Header";
-import Navbar from "../../components/common/Navbar";
+"use client";
+import { Headerr } from "@/components/headerr";
+import { TopBar } from "@/components/top-bar";
 import Footer from "../../components/common/Footer";
 import GallerySection from "../../components/GallerySection";
 
 export default function Gallery() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <GallerySection />
+      {/* Fixed Header */}
+      <main className="fixed top-0 left-0 w-full z-50">
+        <TopBar />
+        <Headerr />
+      </main>
+
+      {/* Page Content */}
+      <div className="pt-[90px]"> {/* adjust height based on header */}
+        <GallerySection />
+      </div>
+
       <Footer />
     </>
   );

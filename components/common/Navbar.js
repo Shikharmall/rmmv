@@ -26,7 +26,7 @@ export default function Navbar() {
               {language === "english" ? "Home" : "होम"}
             </Link>
             <Link
-              href="/about"
+              href="/homee"
               className="text-gray-700 hover:text-[#834e2f]"
             >
               {language === "english" ? "About" : "अबाउट"}

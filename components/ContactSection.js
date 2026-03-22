@@ -54,6 +54,58 @@ export default function ContactSection() {
     }
   }
 
+  const secretariatData = [
+    {
+      name: "Mr. Shikhar Mall",
+      designation: "Additional Chief Secretary, Tourism",
+      email: "shmall.21.2020@gmail.com",
+      phone: "--",
+    },
+    {
+      name: "Mr. Avanish Pratap Mall",
+      designation: "Deputy Secretary, Tourism",
+      email: "--",
+      phone: "--",
+    },
+    {
+      name: "Mr. Suraj Mall",
+      designation: "PS to ACS, Tourism",
+      email: "--",
+      phone: "--",
+    },
+  ];
+
+  const Table = ({ data }) => (
+    <div className="overflow-x-auto mt-6">
+      <table className="w-full border-collapse">
+        <thead>
+          <tr className="bg-[#e6e1cc] text-left text-sm">
+            <th className="p-3">Name</th>
+            <th className="p-3">Designation & Office</th>
+            <th className="p-3">E-mail Id</th>
+            <th className="p-3">Office No. & Mobile No.</th>
+            <th className="p-3">Fax No.</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {data?.map((item, index) => (
+            <tr
+              key={index}
+              className="even:bg-[#f3f1e6] text-left text-sm "
+            >
+              <td className="p-3">{item.name}</td>
+              <td className="p-3">{item.designation}</td>
+              <td className="p-3">{item.email}</td>
+              <td className="p-3">Tel.: {item.phone}</td>
+              <td className="p-3">--</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+
   return (
     <section className="bg-white pb-12">
       {/* Heading */}
@@ -63,8 +115,15 @@ export default function ContactSection() {
         bgImage={'https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg'}
       />
       <div className="max-w-6xl mx-auto px-4">
+        {/* Secretariat */}
+        <div className="text-center mt-12">
+          <h2 className="text-lg font-semibold tracking-wide">
+            SECRETARIAT
+          </h2>
+          <Table data={secretariatData} />
+        </div>
         {/* Map */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14323.669579911992!2d83.67328034658887!3d26.1668195922816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39922eb427a6b111%3A0x15404933bf53d77f!2sMadhuban%2C%20Uttar%20Pradesh%20221603!5e0!3m2!1sen!2sin!4v1753207345187!5m2!1sen!2sin"
             width="100%"
@@ -74,10 +133,10 @@ export default function ContactSection() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </div> */}
 
         {/* Contact Form */}
-        <div className="bg-gray-100 p-8 rounded-lg shadow-md mb-12">
+        {/* <div className="bg-gray-100 p-8 rounded-lg shadow-md mb-12">
           <div className="flex justify-center items-center my-3">
             <div className="inline-block relative mb-5">
               <h2
@@ -147,10 +206,10 @@ export default function ContactSection() {
               )}
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* Contact Icons */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="flex flex-col items-center space-y-3">
             <i
               className="fa-solid fa-location-dot text-3xl"
@@ -187,7 +246,7 @@ export default function ContactSection() {
             </h2>
             <p className="text-gray-700">+91-XXXXX XXXXX</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

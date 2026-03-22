@@ -2,9 +2,9 @@
 import { Headerr } from "@/components/headerr";
 import { TopBar } from "@/components/top-bar";
 import Footer from "../../components/common/Footer";
-import DonateSection from "../../components/DonateSection";
+import AboutSection from "../../components/AboutSection";
 
-export default function Donate() {
+export default function AboutUs() {
 
   return (
     <>
@@ -16,11 +16,10 @@ export default function Donate() {
 
       {/* Page Content */}
       <div className="pt-[90px]"> {/* adjust height based on header */}
-        <DonateSection />
+        <AboutSection />
       </div>
 
       <Footer />
     </>
   );
 }
-
