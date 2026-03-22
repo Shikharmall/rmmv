@@ -1,12 +1,6 @@
 import Image from "next/image"
 
-interface HeroSectionProps {
-  title: string
-  subtitle: string
-  backgroundImage: string
-}
-
-export function HeroSection({ title, subtitle, backgroundImage }: HeroSectionProps) {
+export function HeroSection({ title, subtitle, backgroundImage }) {
   return (
     <section className="relative h-[calc(100vh-140px)] min-h-[500px]">
       {/* Background Image */}

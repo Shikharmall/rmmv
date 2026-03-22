@@ -1,7 +1,7 @@
 "use client";
-import { Headerr } from "@/components/headerr";
-import { TopBar } from "@/components/top-bar";
-import { HeroSection } from "@/components/hero-section";
+import { Headerr } from "@/components/common/headerr";
+import { TopBar } from "@/components/common/top-bar";
+import { HeroSection } from "@/components/common/hero-section";
 import AboutSection from "@/components/home/AboutSection";
 import MoreSection from "@/components/home/MoreSection";
 import MapSection from "@/components/home/MapSection";

@@ -1,7 +1,7 @@
 import Header from "../../components/common/Header";
-import { Headerr } from "@/components/headerr";
-import { TopBar } from "@/components/top-bar";
-import { HeroSection } from "@/components/hero-section";
+import { Headerr } from "@/components/common/headerr";
+import { TopBar } from "@/components/common/top-bar";
+import { HeroSection } from "@/components/common/hero-section";
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
 import GallerySection from "../../components/GallerySection";

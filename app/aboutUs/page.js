@@ -1,6 +1,6 @@
 "use client";
-import { Headerr } from "@/components/headerr";
-import { TopBar } from "@/components/top-bar";
+import { Headerr } from "@/components/common/headerr";
+import { TopBar } from "@/components/common/top-bar";
 import Footer from "../../components/common/Footer";
 import AboutSection from "../../components/AboutSection";
 
