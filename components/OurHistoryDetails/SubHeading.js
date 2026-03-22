@@ -4,7 +4,7 @@ export default function SubHeading({ language, english, hindi }) {
             <div className="h-px flex-grow"></div>
             <h1
                 className="
-          text-3xl 
+          text-2xl 
           md:text-3xl
           uppercase
           text-gray-500
