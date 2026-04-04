@@ -38,8 +38,8 @@ export function Headerr() {
                                 key={item.label}
                                 href={item.href}
                                 className={`text-sm font-semibold tracking-wider transition ${isActive(item.href)
-                                        ? "text-orange-500"
-                                        : "text-gray-800 hover:text-orange-500"
+                                    ? "text-orange-500"
+                                    : "text-gray-800 hover:text-orange-500"
                                     }`}
                             >
                                 {item.label}
@@ -48,9 +48,14 @@ export function Headerr() {
                     </div>
 
                     {/* Center Logo */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center">
+                    <div
+                        className="absolute left-1/2 transform -translate-x-1/2 flex items-center"
+                    // className="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-8 flex items-center"
+                    // className="absolute left-1/2 transform -translate-x-1/2 flex items-center top-1/2 sm:top-[55%]"
+                    >
                         <Image
                             src="https://res.cloudinary.com/drb1ds8e3/image/upload/v1774178896/headLogo_vvrefk.png"
+                            // src="https://res.cloudinary.com/drb1ds8e3/image/upload/v1774889477/rmmv/madhuban/Madhuban_Zamindari_royal_emblem_dubeqi.png"
                             alt="Logo"
                             width={300}
                             height={300}
@@ -76,8 +81,8 @@ export function Headerr() {
                                 key={item.label}
                                 href={item.href}
                                 className={`text-sm font-semibold tracking-wider transition ${isActive(item.href)
-                                        ? "text-orange-500"
-                                        : "text-gray-800 hover:text-orange-500"
+                                    ? "text-orange-500"
+                                    : "text-gray-800 hover:text-orange-500"
                                     }`}
                             >
                                 {item.label}
@@ -105,8 +110,8 @@ export function Headerr() {
                                 href={item.href}
                                 onClick={() => setMenuOpen(false)}
                                 className={`text-sm font-semibold tracking-wider ${isActive(item.href)
-                                        ? "text-orange-500"
-                                        : "text-gray-800"
+                                    ? "text-orange-500"
+                                    : "text-gray-800"
                                     }`}
                             >
                                 {item.label}

@@ -111,6 +111,18 @@ const contents = [
     tagHindi: "रटोल ताल (मधुबन)",
     url: "https://res.cloudinary.com/drb1ds8e3/image/upload/v1774081954/ratohlake11_ebaonb.jpg",
   },
+  {
+    tagEng: "Madhuban's Kings Yatra",
+    tagHindi: "मधुबन के राजाओं की यात्रा",
+    isVideo: true,
+    url: "https://res.cloudinary.com/drb1ds8e3/video/upload/v1774268086/rmmv/madhuban/VID-20250921-WA0003_rzx75r.mp4",
+  },
+  {
+    tagEng: "MLA & MP on Madhuban's Kings",
+    tagHindi: "मधुबन के राजाओं पर विधायक एवं सांसद",
+    isVideo: true,
+    url: "https://res.cloudinary.com/drb1ds8e3/video/upload/v1774881806/rmmv/madhuban/rajavilaschauhanonMadhavmall_pfcdxv.mp4",
+  },
 ];
 
 export default function GallerySection() {
