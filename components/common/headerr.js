@@ -8,7 +8,7 @@ import Image from "next/image";
 const leftNavItems = [
     { label: "HOME", href: "/" },
     { label: "OUR HISTORY", href: "/ourHistory" },
-    { label: "CONTRIBUTION", href: "/homee" },
+    { label: "CONTRIBUTION", href: "/contribution" },
     { label: "MEDIA", href: "/gallery" },
 ];
 
