@@ -6,8 +6,11 @@ import AboutSection from "@/components/home/AboutSection";
 import MoreSection from "@/components/home/MoreSection";
 import MapSection from "@/components/home/MapSection";
 import Footer from "../components/common/Footer";
+import LanguageContext from "@/context/languageContext";
+import { useContext } from "react";
 
 export default function Home() {
+  const { language } = useContext(LanguageContext);
   return (
     <>
       {/* Fixed Header */}
@@ -19,8 +22,8 @@ export default function Home() {
       {/* Page Content */}
       <div className="pt-[90px]"> {/* adjust height based on header */}
         <HeroSection
-          title="Raja Madhav Mall Vishen"
-          subtitle="Madhuban Zamindari"
+          title={language === "english" ? "Raja Madhav Mall Vishen" : "राजा माधव मल्ल विशेन"}
+          subtitle={language === "english" ? "Madhuban Zamindari" : "मधुबन ज़मींदारी"}
           backgroundImage="https://res.cloudinary.com/drb1ds8e3/image/upload/v1773591410/rmmv/mallmahajanpada/warOverBuddhaRelics_u3t4ws.jpg"
         />
         <AboutSection />
